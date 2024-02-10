@@ -3,11 +3,11 @@ import os
 class Config():
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN = os.environ.get("6574591847:AAFUhVgdKpAYAJP7SxreSrk8W0k7FVX3LnE", None)
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
-    APP_ID = os.environ.get("APP_ID", 6)
-    API_HASH = os.environ.get("API_HASH", None)
-    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
+    APP_ID = os.environ.get("28247880", 6)
+    API_HASH = os.environ.get("284d739c01a11909f06accc0960837a5", None)
+    SUDO_USERS = list(set(int(x) for x in os.environ.get("1514452022").split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
